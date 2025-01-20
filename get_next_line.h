@@ -6,7 +6,7 @@
 /*   By: nle-marc <nle-marc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:19:25 by Nathan            #+#    #+#             */
-/*   Updated: 2024/11/29 18:36:39 by nle-marc         ###   ########.fr       */
+/*   Updated: 2025/01/20 09:22:15 by nle-marc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
+# include "libft.h"
 
-char	*ft_strchr(const char *str, int searchchar);
 char	*get_next_line(int fd);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
-size_t	ft_strlcpy(char *dst, const	char *src, size_t size);
-size_t	ft_strlen(const	char *str);
-char	*ft_strjoin(char *s1, char const *s2);
-char	*ft_strdup(const char	*source);
-void	ft_bzero(void *s, size_t n);
 #endif

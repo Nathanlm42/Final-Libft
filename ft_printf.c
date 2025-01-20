@@ -6,7 +6,7 @@
 /*   By: nle-marc <nle-marc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 23:33:37 by Nathan            #+#    #+#             */
-/*   Updated: 2024/11/21 21:04:20 by nle-marc         ###   ########.fr       */
+/*   Updated: 2025/01/20 09:21:26 by nle-marc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,18 +22,6 @@ int	ft_unsignednum(int a)
 		return (ft_putnbr(b));
 	}
 	return (ft_putnbr(a));
-}
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-	{
-		i++;
-	}
-	return (i);
 }
 
 int	ft_putstr(const char *str)

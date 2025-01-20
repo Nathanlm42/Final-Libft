@@ -6,25 +6,11 @@
 /*   By: nle-marc <nle-marc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 23:51:57 by Nathan            #+#    #+#             */
-/*   Updated: 2024/11/23 17:36:15 by nle-marc         ###   ########.fr       */
+/*   Updated: 2025/01/20 09:21:36 by nle-marc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-void	ft_bzero(void *s, size_t n)
-{
-	char				*point;
-	unsigned int		i;
-
-	i = 0;
-	point = (char *) s;
-	while (i < n)
-	{
-		point[i] = 0;
-		i ++;
-	}
-}
 
 static size_t	ftsizeofdiv(long long int n)
 {

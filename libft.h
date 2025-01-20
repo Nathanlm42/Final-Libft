@@ -6,7 +6,7 @@
 /*   By: nle-marc <nle-marc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 10:15:21 by nle-marc          #+#    #+#             */
-/*   Updated: 2025/01/20 09:04:55 by nle-marc         ###   ########.fr       */
+/*   Updated: 2025/01/20 09:18:36 by nle-marc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
-# include <ft_printf.h>
-# include <get_next_line.h>
+# include "ft_printf.h"
+# include "get_next_line.h"
 
 typedef struct s_list
 {

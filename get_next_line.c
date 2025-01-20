@@ -6,30 +6,11 @@
 /*   By: nle-marc <nle-marc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:20:18 by Nathan            #+#    #+#             */
-/*   Updated: 2024/11/23 17:43:17 by nle-marc         ###   ########.fr       */
+/*   Updated: 2025/01/20 09:22:23 by nle-marc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-char	*ft_strdup(const char	*source)
-{
-	size_t	size;
-	char	*dst;
-
-	size = ft_strlen(source);
-	dst = (char *)malloc(size + 1);
-	size = 0;
-	if (dst == NULL)
-		return (NULL);
-	while (source[size])
-	{
-		dst[size] = source[size];
-		size ++;
-	}
-	dst[size] = '\0';
-	return (dst);
-}
 
 char	*findline(char *buffer, int fd, int *eof)
 {
